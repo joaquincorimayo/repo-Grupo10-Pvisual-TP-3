@@ -2,10 +2,10 @@ package ar.edu.unju.fi.ejercicio9;
 
 public class Producto {
 	// ATRIBUTOs
-	int codigo;
-	double precio;
-	String descripcion;
-	String marca;
+	private int codigo;
+	private double precio;
+	private String descripcion;
+	private String marca;
 
 	// CONSTRUCTOR PARAMETRIZADO
 	public Producto(int codigo, String descripcion, double precio, String marca) {
