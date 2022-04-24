@@ -3,10 +3,10 @@ package ar.edu.unju.fi.ejercicio3;
 import java.util.Arrays;
 
 public class Alumno {
-	String nombre;
-	String apellido;
-	int libretaUniversitaria;
-	double[] notas;
+	private String nombre;
+	private String apellido;
+	private int libretaUniversitaria;
+	private double[] notas;
 
 	// CONSTRUCTORES
 	public Alumno() {
