@@ -36,6 +36,7 @@ public class Principal {
 				Producto prod = new Producto(codigo, descripcion, precio, marca);
 				productos.add(prod);
 				break;
+				
 			case 2:
 				// muestra la lista de todos los productos.
 				System.out.println("Lista de todos los productos");
